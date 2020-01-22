@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Applications/mampstack-7.3.13-0/apache2/bin/envvars
+exec /Applications/mampstack-7.3.13-0/apache2/bin/fcgistarter.bin "$@"
